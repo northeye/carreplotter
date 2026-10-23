@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – CarReplotter</title>
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="ja" href="ja/privacy.html">
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="./">CarReplotter</a>
+  <nav><a href="./">Home</a><a href="ja/privacy.html">日本語</a></nav>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: October 23, 2026</p>
+
+<p>This policy describes how the CarReplotter app ("the app"), developed by Takuo Kitame ("we"), handles your information.
+In short: <strong>the records of where you drove stay on your phone.</strong> The app has no account, no server, no ads and no analytics.</p>
+
+<h2>1. Information stored on your phone</h2>
+<p>The app stores the following only on your phone, in the app's private storage:</p>
+<ul>
+  <li><strong>Trips</strong>: GPS positions and their times, values read from your car through the OBD2 adapter (such as speed, RPM and temperatures), and the phone's motion sensor readings used to detect impacts</li>
+  <li><strong>Information you enter</strong>: vehicle names, engine displacement, trip names, purposes, costs and memos, and saved places (such as "Home") with their positions</li>
+  <li><strong>Information read from your car and adapter</strong>: the vehicle identification number (VIN) if the car provides it, and the names and Bluetooth addresses of adapters you connected to</li>
+  <li>Settings, and addresses of trip starts and destinations looked up as described below</li>
+</ul>
+<p>We do not receive any of this information. You can delete trips and vehicles in the app; uninstalling the app deletes all of it.</p>
+
+<h2>2. Information sent outside your phone</h2>
+<p>The app does not send the records of your trips (your GPS track) anywhere. Only the following leave your phone, and only for the purposes stated:</p>
+<h3>Map display (Google Maps)</h3>
+<p>To show maps, the app uses the Google Maps SDK for Android. Map images for the area you are viewing are downloaded from Google, so Google receives the area being shown and technical information such as your IP address.
+Google's handling of this information is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h3>Addresses of starts and destinations</h3>
+<p>To show the address of where a trip started and ended, the app sends those two positions to your phone's address lookup service (the Android Geocoder; Google on most phones).
+Positions within a saved place (such as your home) are not sent; the place's name is shown instead.</p>
+<h3>Current address on the meter (off by default)</h3>
+<p>Only if you turn on "Show the current address on the meter" and place "Location" on the meter, your current position is sent to the same address lookup service about once a minute while recording (when you have moved 200 m or more), except inside saved places.</p>
+<h3>Backups you set up</h3>
+<ul>
+  <li>If backup is turned on in your phone's settings, Android backs up the app's settings, vehicles, saved places and meter layouts to your Google account. Trip data is not included.</li>
+  <li>Trip data is written only to the files or folders you choose (manual export or automatic backup), such as a folder on your phone or in a cloud storage app.</li>
+</ul>
+<h3>Files you share</h3>
+<p>When you export a trip (GPX, KML, CSV) and share it, it is sent to the app you choose.</p>
+<h3>Your OBD2 adapter</h3>
+<p>The app communicates with your OBD2 adapter over Bluetooth Low Energy or Wi-Fi to read values from your car. This communication stays between your phone and the adapter.</p>
+
+<h2>3. Permissions</h2>
+<ul>
+  <li><strong>Location (precise)</strong>: to record your route. It is used only while recording, with a notification shown. The app does not request background location permission.</li>
+  <li><strong>Nearby devices (Bluetooth)</strong>: to find and connect to your OBD2 adapter. Bluetooth scanning is not used to determine your location.</li>
+  <li><strong>Notifications</strong>: to show that the app is recording or connected.</li>
+  <li><strong>Companion device</strong> (optional): if you set up "Connect automatically when nearby", Android notifies the app when your adapter is nearby so that it can connect and start recording.</li>
+</ul>
+
+<h2>4. What we do not do</h2>
+<ul>
+  <li>We do not collect, sell or share your personal information.</li>
+  <li>The app contains no advertising and no analytics or tracking.</li>
+  <li>The app does not require an account.</li>
+</ul>
+<p>If you have chosen to share usage and diagnostics with app developers in your phone's settings, Google Play may provide us with anonymous crash reports. These do not include your trips.</p>
+
+<h2>5. Children</h2>
+<p>The app is intended for drivers and is not directed at children.</p>
+
+<h2>6. Changes</h2>
+<p>We may update this policy. The latest version is always available on this page, with the date it was last updated.</p>
+
+<h2>7. Contact</h2>
+<p>Takuo Kitame (Northeye)<br><a href="mailto:carreplotter@northeye.org">carreplotter@northeye.org</a></p>
+
+<footer>Copyright © 2026 Takuo Kitame</footer>
+</main>
+</body>
+</html>
